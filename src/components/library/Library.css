@@ -1,62 +1,66 @@
-.library-container{
-    display: flex;
-    flex-direction: column;
-    width: 260px;
-    height: 435px;
-    padding: 24px;
-    
-    /* box-shadow: 2px 2px 2px 2px #fafafa ; */
+.library-container {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 435px;
+  padding: 24px;
+
+  /* box-shadow: 2px 2px 2px 2px #fafafa ; */
 }
 .library-container img {
-    max-width: 100%;
-    height: 100vh;
-    border-radius: 30px;
+  max-width: 100%;
+  height: 100vh;
+  border-radius: 30px;
 }
-.library-container label{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 10px ;
+.library-container label {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
 }
- button{
-    width: 37%;
-    height: 40px;
-    border-radius: 10px;
-    outline: none;
+button {
+  width: 37%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
 }
-.desc{
-    font-weight: bold;
+.desc {
+  font-weight: bold;
 }
-.books-container{
-    display: flex;
-    width: 100%;
-    /* margin: 32px; */
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.books-container {
+  display: flex;
+  width: 100%;
+  /* margin: 32px; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.list-header{
-    display: flex;
-    justify-content: space-evenly;
-    
+.list-header {
+  display: flex;
+  justify-content: space-evenly;
 }
-.list-container{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+.list-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
-.list-container img{
-    height: 100px;
-    width: 20%;
-    border-radius: 22px;
+.list-container img {
+  height: 100px;
+  width: 20%;
+  border-radius: 22px;
 }
-.list-section{
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-   
+.list-section {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }
-.list-img{
-    display: flex;
-    justify-content: space-evenly;
-    
+.list-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  width: 100%;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 1024px) {
+  .list-view {
+    display: none;
+  }
 }

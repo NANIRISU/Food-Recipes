@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Library.css";
 import data from "../../data.json";
+import NewModal from "../newModal/NewModal";
 const Library = (props) => {
   // console.log(props.type, "library");
   const [filterdata, setfilterData] = useState(data);
@@ -31,9 +32,8 @@ const Library = (props) => {
     }
   };
   useEffect(() => {
-    searchJobs(props.text)
-   
-  }, [props.text])
+    searchJobs(props.text);
+  }, [props.text]);
 
   return (
     <>
@@ -53,7 +53,8 @@ const Library = (props) => {
                 <img src={post.image} />
                 <label className="desc">{post.desc}</label>
                 <label className="author">{post.author}</label>
-                <button>{post.title}</button>
+                {/* <button>{post.title} <NewModal/></button> */}
+                <NewModal post={post} />
               </div>
             );
           })}
@@ -69,19 +70,15 @@ const Library = (props) => {
           {filterdata.map((post, index) => {
             return (
               <div className="list-container">
-               
-
                 <div className="list-img">
-                  
                   <img src={post.image} />
                   <div className="list-section">
-                  <label className="desc">{post.desc}</label>
-                  <label className="author">{post.author}</label>
+                    <label className="desc">{post.desc}</label>
+                    <label className="author">{post.author}</label>
+                  </div>
+                  <NewModal post={post} />
                 </div>
-                <label> {post.title}</label>
-                </div>
-                
-               
+
                 <label>{post.progress}</label>
                 <label>{post.status}</label>
               </div>
