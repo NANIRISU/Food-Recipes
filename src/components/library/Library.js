@@ -1,25 +1,96 @@
-import React from 'react'
-import "./Library.css"
-// import data from "../../data.json"
+import React, { useEffect, useState } from "react";
+import "./Library.css";
+import data from "../../data.json";
 const Library = (props) => {
-    return (
-        <div>
-        <div className="library-container">
-           
-                        <img src={props.image}/>
-            
-            <label className="desc" >{props.desc}</label>
-            <label className="author">{props.author}</label>
-                        
-            
+  // console.log(props.type, "library");
+  const [filterdata, setfilterData] = useState(data);
 
-        
-            
-            
+  const searchJobs = (searchWord) => {
+    console.log("searchWord", searchWord);
+    if (searchWord !== "") {
+      // console.log(searchWord);
+
+      const newData = data.filter((item) => {
+        const author = item.author
+          ? item.author.toUpperCase()
+          : "".toUpperCase();
+        const desc = item.desc ? item.desc.toUpperCase() : "".toUpperCase();
+
+        const searchWordData = searchWord.toUpperCase();
+
+        if (author.indexOf(searchWordData) > -1) {
+          return author.indexOf(searchWordData) > -1;
+        } else if (desc.indexOf(searchWordData) > -1) {
+          return desc.indexOf(searchWordData) > -1;
+        }
+      });
+      setfilterData(newData);
+    } else {
+      // console.log("null");
+      setfilterData(data);
+    }
+  };
+  useEffect(() => {
+    searchJobs(props.text)
+   
+  }, [props.text])
+
+  return (
+    <>
+      {/* <div>
+        <input
+          type="text"
+          placeholder="Enter item to be searched"
+          onChange={(e) => searchJobs(e.target.value)}
+        />
+      </div> */}
+
+      {props.type === "grid" ? (
+        <div className="books-container">
+          {filterdata.map((post, index) => {
+            return (
+              <div className="library-container">
+                <img src={post.image} />
+                <label className="desc">{post.desc}</label>
+                <label className="author">{post.author}</label>
+                <button>{post.title}</button>
+              </div>
+            );
+          })}
         </div>
-        <button>{props.title}</button>
-</div>
-    )
-}
+      ) : (
+        <div className="list-view">
+          <div className="list-header">
+            <div>Books Title & Author </div>
+            <div>Genre </div>
+            <div>Reading progress </div>
+            <div> Last Opended</div>
+          </div>
+          {filterdata.map((post, index) => {
+            return (
+              <div className="list-container">
+               
 
-export default Library
+                <div className="list-img">
+                  
+                  <img src={post.image} />
+                  <div className="list-section">
+                  <label className="desc">{post.desc}</label>
+                  <label className="author">{post.author}</label>
+                </div>
+                <label> {post.title}</label>
+                </div>
+                
+               
+                <label>{post.progress}</label>
+                <label>{post.status}</label>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </>
+  );
+};
+
+export default Library;

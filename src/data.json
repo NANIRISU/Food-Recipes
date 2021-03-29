@@ -1,74 +1,94 @@
     
 [{
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+  "desc":"Faith",
     "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "button":"Fiction"
-
+    "title":"Fiction",
+    "progress":"72%",
+     "status":"12 Mintues Ago"
  
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fantasy"
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-
- 
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-
- 
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-
- 
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
   },
   
   {
-    "author": "David Adams",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-
- 
-  },
-  {
-    "author": "David Adams",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
-    "genre": "Faith",
-    "title":"Fiction"
-  }
-  
+    "desc":"Faith",
+      "author": "David Adams",
+      "title":"Fiction",
+      "progress":"72%",
+       "status":"12 Mintues Ago"
+   
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+      "desc":"Faith",
+        "author": "David Adams",
+        "title":"Fiction",
+        "progress":"72%",
+         "status":"12 Mintues Ago"
+     
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+        "desc":"Faith",
+          "author": "David Adams",
+          "title":"Fiction",
+          "progress":"72%",
+           "status":"12 Mintues Ago"
+       
+        },
+        {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+          "desc":"Faith",
+            "author": "David Adams",
+            "title":"Fiction",
+            "progress":"72%",
+             "status":"12 Mintues Ago"
+         
+          },
+          {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+            "desc":"Faith",
+              "author": "David Adams",
+              "title":"Fiction",
+              "progress":"72%",
+               "status":"12 Mintues Ago"
+           
+            },
+            {
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+              "desc":"Faith",
+                "author": "David Adams",
+                "title":"Fiction",
+                "progress":"72%",
+                 "status":"12 Mintues Ago"
+             
+              },
+              {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+                "desc":"Faith",
+                  "author": "sai",
+                  "title":"Fiction",
+                  "progress":"72%",
+                   "status":"12 Mintues Ago"
+               
+                },
+                {
+                  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+                  "desc":"Faith",
+                    "author": "krishna",
+                    "title":"Fiction",
+                    "progress":"72%",
+                     "status":"12 Mintues Ago"
+                 
+                  },
+                  {
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMdYlQFxYimxd6iNERSgEsDcALykernUQ5g&usqp=CAU",
+                    "desc":"Faith",
+                      "author": "kumar",
+                      "title":"Fiction",
+                      "progress":"72%",
+                       "status":"12 Mintues Ago"
+                   
+                    }
+                    
 ]

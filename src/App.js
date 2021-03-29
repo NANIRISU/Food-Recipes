@@ -5,14 +5,16 @@ import './App.css';
 // import Main from './components/main/Main';
 // import SideMenu from './components/sideMenu/SideMenu';
 import Dashboard from './components/dashboard/Dashboard';
+import NewModal from './newModal/NewModal';
+
 function App() {
   
   return (
     <div className="App">
-       <Dashboard/>
-      {/* <LightDarkMode> */}
-    
-      {/* </LightDarkMode> */}
+      {/* <NewModal/> */}
+ 
+      <Dashboard/>
+     
      
     </div>
   );

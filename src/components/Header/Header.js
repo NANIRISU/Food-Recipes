@@ -3,7 +3,7 @@ import "./header.css";
 
 
 import NewHeader from "../newHeader/NewHeader";
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header-container">
       <div className="header-title">
@@ -11,11 +11,7 @@ const Header = () => {
       </div>
 
       <div className="icons-header">
-      <NewHeader/>
-        {/* <BsFillGridFill />
-        <FiAlignCenter /> */}
-       
-       
+      <NewHeader  changeType={(type)=>props.changeType(type)} changeText={(text)=>props.changeText(text)}/>
         
       </div>
     </div>

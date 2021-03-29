@@ -1,8 +1,8 @@
 .library-container{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 550px;
+    width: 260px;
+    height: 435px;
     padding: 24px;
     
     /* box-shadow: 2px 2px 2px 2px #fafafa ; */
@@ -25,4 +25,38 @@
 }
 .desc{
     font-weight: bold;
+}
+.books-container{
+    display: flex;
+    width: 100%;
+    /* margin: 32px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.list-header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.list-container img{
+    height: 100px;
+    width: 20%;
+    border-radius: 22px;
+}
+.list-section{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+   
+}
+.list-img{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
